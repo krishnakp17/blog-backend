@@ -51,7 +51,7 @@ let user=new userModel(data)
             )
         }
         res.json({
-            status:"success"
+            status:"success","userData":data
          })
     })
 module.exports=router

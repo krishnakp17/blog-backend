@@ -14,6 +14,6 @@ mongoose.connect("mongodb+srv://krishna:krishna17@cluster0.yiellsj.mongodb.net/u
 app.use("/api/user",userRoute)
 app.use("/api/post",postRoute)
 
-app.listen(3000,()=>{
+app.listen(3002,()=>{
     console.log("server running")
 })
